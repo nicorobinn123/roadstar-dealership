@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RoadStar Dealership - Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #f5f5f5; /* soft off-white */
+      font-family: 'Inter', sans-serif;
+    }
+    .text-gradient {
+      background: linear-gradient(45deg, #dc2626, #b91c1c);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .btn-red {
+      background-color: #dc2626;
+      color: white;
+      padding: 0.6rem;
+      font-weight: bold;
+      border-radius: 0.5rem;
+      transition: transform 0.2s, background-color 0.2s;
+      font-size: 0.9rem;
+    }
+    .btn-red:hover {
+      background-color: #b91c1c;
+      transform: translateY(-2px);
+    }
+    .btn-black {
+      background-color: #111;
+      color: white;
+      padding: 0.6rem;
+      font-weight: bold;
+      border-radius: 0.5rem;
+      transition: transform 0.2s, background-color 0.2s;
+      font-size: 0.9rem;
+    }
+    .btn-black:hover {
+      background-color: #000;
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body class="flex items-center justify-center min-h-screen">
+  <div class="bg-white p-6 rounded-xl shadow-xl w-full max-w-sm">
+    <!-- Logo -->
+    <div class="text-center mb-4">
+      <h1 class="text-3xl font-extrabold text-gradient">RoadStar</h1>
+      <p class="uppercase tracking-widest text-gray-500 text-sm">Dealership</p>
+    </div>
+
+    <!-- Login Form -->
+    <form id="loginForm" class="space-y-4">
+      <div>
+        <input id="email" type="email" placeholder="Email Address" class="w-full px-3 py-2 rounded-md border border-gray-300 focus:ring-2 focus:ring-red-500 focus:outline-none text-sm">
+        <p id="emailError" class="text-red-500 text-xs mt-1 hidden">Enter a valid email address.</p>
+      </div>
+
+      <div>
+        <input id="password" type="password" placeholder="Password" class="w-full px-3 py-2 rounded-md border border-gray-300 focus:ring-2 focus:ring-red-500 focus:outline-none text-sm">
+        <p id="passwordError" class="text-red-500 text-xs mt-1 hidden">Password cannot be empty.</p>
+      </div>
+
+      <button type="submit" class="btn-red w-full">Login</button>
+    </form>
+
+    <div class="flex items-center my-4">
+      <hr class="flex-grow border-gray-300">
+      <span class="px-2 text-gray-400 text-xs">or</span>
+      <hr class="flex-grow border-gray-300">
+    </div>
+
+     <button onclick="window.location.href='signup.html'" class="btn-black w-full">
+    Sign Up Instead
+    </button>
+  </div>
+
+  <script>
+    const form = document.getElementById("loginForm");
+    const emailField = document.getElementById("email");
+    const passwordField = document.getElementById("password");
+
+    const emailError = document.getElementById("emailError");
+    const passwordError = document.getElementById("passwordError");
+
+    form.addEventListener("submit", function(e) {
+      e.preventDefault(); // stop default
+
+      let valid = true;
+
+      // Email validation
+      const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+      if (!emailField.value.match(emailPattern)) {
+        emailError.classList.remove("hidden");
+        valid = false;
+      } else {
+        emailError.classList.add("hidden");
+      }
+
+      // Password validation
+      if (passwordField.value.trim() === "") {
+        passwordError.classList.remove("hidden");
+        valid = false;
+      } else {
+        passwordError.classList.add("hidden");
+      }
+
+      if (valid) {
+        window.location.href = "homepage.html"; // redirect
+      }
+    });
+  </script>
+</body>
+</html>

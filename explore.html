@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoadStar Dealership - Explore</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .text-gradient-red {
+            background-image: linear-gradient(45deg, #FF6347, #FF0000);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .brand-card {
+            background-color: #fff;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+        .brand-card:hover {
+            transform: translateY(-5px);
+        }
+        .btn-blue {
+            background-color: #3B82F6;
+            color: white;
+            padding: 0.75rem 2rem;
+            font-size: 0.875rem;
+            font-weight: bold;
+            border-radius: 9999px;
+            transition: transform 0.2s;
+        }
+        .btn-blue:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-white shadow-lg p-4 flex items-center justify-between sticky top-0 z-50">
+  <div class="flex items-center space-x-2">
+    <h1 class="text-3xl font-bold text-gradient-red">RoadStar</h1>
+    <p class="text-lg uppercase tracking-widest text-gray-700">dealership</p>
+  </div>
+  <nav class="hidden md:flex space-x-6">
+    <a href="homepage.html" class="text-gray-600 hover:text-red-500 font-medium">Home</a>
+    <a href="explore.html" class="text-gray-600 hover:text-red-500 font-medium">Explore</a>
+    <a href="explore.html" class="text-gray-600 hover:text-red-500 font-medium">View 360</a>
+    <a href="testdrive.html" class="text-gray-600 hover:text-red-500 font-medium">Test Drive</a>
+  </nav>
+</header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto p-4 md:p-8">
+        <h1 class="text-4xl md:text-5xl font-bold text-center mt-8 mb-12 text-gray-800">EXPLORE</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Toyota Card -->
+            <div class="brand-card p-6 flex flex-col items-center text-center">
+                <img src="Assets/toyota.png" alt="Toyota Logo" class="w-40 h-auto mb-4">
+                <p class="text-2xl font-bold text-gray-800">TOYOTA</p>
+                <a href="Toyota/toyota.html" class="btn-blue mt-4 inline-block text-center">VIEW CARS</a>
+            </div>
+            <!-- Honda Card -->
+            <div class="brand-card p-6 flex flex-col items-center text-center">
+                <img src="Assets/honda.png" alt="Honda Logo" class="w-40 h-auto mb-4">
+                <p class="text-2xl font-bold text-gray-800">HONDA</p>
+                <a href="Honda/honda.html" class="btn-blue mt-4 inline-block text-center">VIEW CARS</a>
+            </div>
+            <!-- BMW Card -->
+            <div class="brand-card p-6 flex flex-col items-center text-center">
+                <img src="Assets/bmw.png" alt="BMW Logo" class="w-40 h-auto mb-4">
+                <p class="text-2xl font-bold text-gray-800">BMW</p>
+                <a href="BMW/bmw.html" class="btn-blue mt-4 inline-block text-center">VIEW CARS</a>
+            </div>
+            <!-- Mercedes Benz Card -->
+            <div class="brand-card p-6 flex flex-col items-center text-center">
+                <img src="Assets/mercedes.png" alt="Mercedes Benz Logo" class="w-40 h-auto mb-4">
+                <p class="text-2xl font-bold text-gray-800">MERCEDES BENZ</p>
+                <a href="Mercedes/mercedes.html" class="btn-blue mt-4 inline-block text-center">VIEW CARS</a>
+            </div>
+            <!-- Nissan Card -->
+            <div class="brand-card p-6 flex flex-col items-center text-center">
+                <img src="Assets/nissan.png" alt="Nissan Logo" class="w-40 h-auto mb-4">
+                <p class="text-2xl font-bold text-gray-800">NISSAN</p>
+                <a href="Nissan/nissan.html" class="btn-blue mt-4 inline-block text-center">VIEW CARS</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-8 px-4 md:px-8 mt-12">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+            <div>
+                <h2 class="text-2xl font-bold text-white mb-2">RoadStar</h2>
+                <p class="text-sm tracking-widest uppercase">dealership</p>
+            </div>
+            <div>
+                <h3 class="font-bold text-white mb-2">About Us</h3>
+                <ul class="space-y-1">
+                    <li><a href="#" class="hover:text-red-500 transition">Contact</a></li>
+                    <li><a href="#" class="hover:text-red-500 transition">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:text-red-500 transition">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-bold text-white mb-2">Our Social Media Platforms:</h3>
+                <ul class="space-y-1">
+                    <li><a href="#" class="hover:text-red-500 transition">Instagram: @roadstardealership</a></li>
+                    <li><a href="#" class="hover:text-red-500 transition">Youtube: RoadStarDealership</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,11 @@
+Model Information:
+* title:	2015 Mercedes-Benz G-Class G 63 AMG
+* source:	https://sketchfab.com/3d-models/2015-mercedes-benz-g-class-g-63-amg-61c922248b59447892ce34ba0fc290f3
+* author:	Ddiaz Design (https://sketchfab.com/ddiaz-design)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "2015 Mercedes-Benz G-Class G 63 AMG" (https://sketchfab.com/3d-models/2015-mercedes-benz-g-class-g-63-amg-61c922248b59447892ce34ba0fc290f3) by Ddiaz Design (https://sketchfab.com/ddiaz-design) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

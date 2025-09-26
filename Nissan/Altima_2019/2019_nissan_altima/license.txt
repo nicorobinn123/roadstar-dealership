@@ -1,0 +1,11 @@
+Model Information:
+* title:	2019 Nissan Altima
+* source:	https://sketchfab.com/3d-models/2019-nissan-altima-d7a699a69c634bdcaef419b81087d461
+* author:	Ddiaz Design (https://sketchfab.com/ddiaz-design)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "2019 Nissan Altima" (https://sketchfab.com/3d-models/2019-nissan-altima-d7a699a69c634bdcaef419b81087d461) by Ddiaz Design (https://sketchfab.com/ddiaz-design) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)

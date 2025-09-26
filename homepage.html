@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RoadStar Dealership - Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth; /* smooth scrolling */
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f3f4f6;
+    }
+    .text-gradient-red {
+      background-image: linear-gradient(45deg, #FF6347, #FF0000);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .btn-blue {
+      background-color: #3B82F6;
+      color: white;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 9999px;
+      transition: transform 0.2s;
+    }
+    .btn-blue:hover {
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <header class="bg-white shadow-lg p-4 flex items-center justify-between sticky top-0 z-50">
+  <div class="flex items-center space-x-2">
+    <h1 class="text-3xl font-bold text-gradient-red">RoadStar</h1>
+    <p class="text-lg uppercase tracking-widest text-gray-700">dealership</p>
+  </div>
+  <nav class="hidden md:flex space-x-6">
+    <a href="#top" class="text-gray-600 hover:text-red-500 font-medium">Home</a>
+    <a href="#discover" class="text-gray-600 hover:text-red-500 font-medium">Explore</a>
+    <a href="#view360" class="text-gray-600 hover:text-red-500 font-medium">View 360</a>
+    <a href="#testdrive" class="text-gray-600 hover:text-red-500 font-medium">Test Drive</a>
+  </nav>
+</header>
+
+
+  <!-- Hero Section -->
+  <section id="top"class="w-full">
+    <video class="w-full h-auto object-cover rounded-xl shadow-lg" autoplay muted loop playsinline>
+      <source src="Assets/car dealer commercial.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Discover Section -->
+  <section id="discover" class="py-8 md:py-16 px-4 md:px-8">
+    <div class="container mx-auto flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-12">
+      <div class="w-full md:w-1/2 flex justify-center">
+        <img src="Assets/cars.png" alt="Black Car" class="rounded-lg hidden md:block">
+      </div>
+      <div class="w-full md:w-1/2 text-center md:text-left">
+        <h2 class="text-4xl md:text-5xl font-bold text-red-800">DISCOVER YOUR <br> DREAM CAR</h2>
+        <p class="mt-4 text-gray-600">"Explore Our Exclusive Car Collection"<br>From sleek sedans to powerful SUVs, all in one place. Use our intuitive search filters to find the perfect match.</p>
+        <a href="explore.html" class="btn-blue mt-6 inline-block text-center">EXPLORE NOW!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 360 View Demo -->
+  <section id="view360" class="py-12 md:py-24 px-4 md:px-8">
+    <div class="container mx-auto flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-12">
+      <div class="w-full md:w-1/2 flex justify-center">
+        <img src="Assets/cars2.png" alt="360 Car View" class="rounded-xl shadow-xl">
+      </div>
+      <div class="w-full md:w-1/2 text-center md:text-left">
+        <h2 class="text-4xl md:text-5xl font-bold text-red-800">360 MODEL <br> VIEW</h2>
+        <p class="mt-4 text-gray-600">"Experience every angle with 360° View"<br>Rotate, zoom, and explore every detail before stepping into the dealership.</p>
+        <a href="explore.html" class="btn-blue mt-6 inline-block text-center">TRY NOW!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Test Drive Section -->
+  <section id="testdrive" class="py-12 md:py-24 px-4 md:px-8 bg-white">
+    <div class="container mx-auto flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-12">
+      <div class="w-full md:w-1/2 text-center md:text-left">
+        <h2 class="text-4xl md:text-5xl font-bold text-red-800">TEST DRIVE</h2>
+        <p class="mt-4 text-gray-600">"Feel the drive & book your test ride today!"<br>Schedule a test drive and experience performance, comfort, and handling.</p>
+        <a href = "testdrive.html"class="btn-blue mt-6 inline-block text-center">BOOK NOW!</a>
+      </div>
+      <div class="w-full md:w-1/2 flex justify-center">
+        <img src="Assets/test drive.png" alt="Test Drive" class="rounded-xl shadow-xl">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-300 py-8 px-4 md:px-8">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+      <div>
+        <h2 class="text-2xl font-bold text-white mb-2">RoadStar</h2>
+        <p class="text-sm tracking-widest uppercase">dealership</p>
+      </div>
+      <div>
+        <h3 class="font-bold text-white mb-2">About Us</h3>
+        <ul class="space-y-1">
+          <li><a href="#" class="hover:text-red-500 transition">Contact</a></li>
+          <li><a href="#" class="hover:text-red-500 transition">Privacy Policy</a></li>
+          <li><a href="#" class="hover:text-red-500 transition">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold text-white mb-2">Our Social Media Platforms:</h3>
+        <ul class="space-y-1">
+          <li><a href="#" class="hover:text-red-500 transition">Instagram: @roadstardealership</a></li>
+          <li><a href="#" class="hover:text-red-500 transition">Youtube: RoadStarDealership</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

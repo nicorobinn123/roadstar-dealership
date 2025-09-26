@@ -1,0 +1,11 @@
+Model Information:
+* title:	2018 Nissan 370Z Coupe Heritage Edition
+* source:	https://sketchfab.com/3d-models/2018-nissan-370z-coupe-heritage-edition-c9ae9b17f7d34430917b0c781e513bb9
+* author:	Ddiaz Design (https://sketchfab.com/ddiaz-design)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "2018 Nissan 370Z Coupe Heritage Edition" (https://sketchfab.com/3d-models/2018-nissan-370z-coupe-heritage-edition-c9ae9b17f7d34430917b0c781e513bb9) by Ddiaz Design (https://sketchfab.com/ddiaz-design) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
