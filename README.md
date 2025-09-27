@@ -11,7 +11,7 @@ Designed to replicate the feel of visiting a real dealership with smooth navigat
 
 
  📽️ Demo:
- [Watch Demo Video](https://drive.google.com/file/d/1mUPNrEfrUSi8Pguhs8eoZtDQppeKbR0F/view?usp=sharing)
+ [▶️ Watch Demo Video](https://drive.google.com/file/d/1mUPNrEfrUSi8Pguhs8eoZtDQppeKbR0F/view?usp=sharing)
 
 
  ⚙️ Tools:
