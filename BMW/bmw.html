@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +12,14 @@
             font-family: 'Roboto', sans-serif;
             background-color: #f3f4f6;
         }
+
         .text-gradient-red {
             background-image: linear-gradient(45deg, #FF6347, #FF0000);
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+
         .brand-card {
             background-color: #fff;
             border-radius: 1rem;
@@ -29,9 +32,11 @@
             text-align: center;
             padding: 1.5rem;
         }
+
         .brand-card:hover {
             transform: translateY(-5px);
         }
+
         .btn-blue {
             background-color: #3B82F6;
             color: white;
@@ -41,15 +46,18 @@
             border-radius: 9999px;
             transition: transform 0.2s;
         }
+
         .btn-blue:hover {
             transform: translateY(-2px);
         }
+
         .filter-select {
             padding: 0.5rem 1rem;
             border-radius: 0.5rem;
             border: 1px solid #d1d5db;
             background-color: #fff;
         }
+
         .back-btn {
             background-color: #6B7280;
             color: white;
@@ -58,11 +66,13 @@
             font-weight: bold;
             transition: background-color 0.2s;
         }
+
         .back-btn:hover {
             background-color: #4B5563;
         }
     </style>
 </head>
+
 <body>
     <!-- Header -->
     <header class="bg-white shadow-lg p-4 flex items-center justify-between sticky top-0 z-50">
@@ -101,74 +111,96 @@
 
         <!-- Cars Grid -->
         <div id="carsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- M3 Touring 2023 -->
             <div class="brand-card" data-name="M3 Touring 2023">
-                <img src="../Assets/bmw/m3 touring.png" alt="M3 Touring 2023" class="w-40 h-auto mb-4">
-                <p class="text-2xl font-bold text-gray-800">M3 Touring 2023</p>
-                <button class="btn-blue mt-4" onclick="location.href='M3_Touring_2023'">VIEW 360</button>
+                <div class="flex justify-center items-center h-40 w-full mb-4">
+                    <img src="../Assets/bmw/m3 touring.png" alt="M3 Touring 2023" class="max-h-full object-contain">
+                </div>
+                <p class="text-2xl font-bold text-gray-800 mb-4">M3 Touring 2023</p>
+                <button class="btn-blue px-4 py-2" onclick="location.href='M3_Touring_2023'">VIEW 360</button>
             </div>
+
+            <!-- M4 Convertible -->
             <div class="brand-card" data-name="M4 Convertible F83 2018">
-                <img src="../Assets/bmw/m4 convertible.png" alt="M4 Convertible F83 2018" class="w-40 h-auto mb-4">
-                <p class="text-2xl font-bold text-gray-800">M4 Convertible F83 2018</p>
-                <button class="btn-blue mt-4" onclick="location.href='M4_Convertible_F83_2018'">VIEW 360</button>
+                <div class="flex justify-center items-center h-40 w-full mb-4">
+                    <img src="../Assets/bmw/m4 convertible.png" alt="M4 Convertible F83 2018"
+                        class="max-h-full object-contain">
+                </div>
+                <p class="text-2xl font-bold text-gray-800 mb-4">M4 Convertible F83 2018</p>
+                <button class="btn-blue px-4 py-2" onclick="location.href='M4_Convertible_F83_2018'">VIEW
+                    360</button>
             </div>
+
+            <!-- M4 CSL -->
             <div class="brand-card" data-name="M4 CSL 2022">
-                <img src="../Assets/bmw/csl.jpg" alt="M4 CSL 2022" class="w-40 h-auto mb-4">
-                <p class="text-2xl font-bold text-gray-800">M4 CSL 2022</p>
-                <button class="btn-blue mt-4" onclick="location.href='M4_CSL_2022'">VIEW 360</button>
+                <div class="flex justify-center items-center h-40 w-full mb-4">
+                    <img src="../Assets/bmw/csl.jpg" alt="M4 CSL 2022" class="max-h-full object-contain">
+                </div>
+                <p class="text-2xl font-bold text-gray-800 mb-4">M4 CSL 2022</p>
+                <button class="btn-blue px-4 py-2" onclick="location.href='M4_CSL_2022'">VIEW 360</button>
             </div>
+
+            <!-- M5 Sedan -->
             <div class="brand-card" data-name="M5 Sedan 2025">
-                <img src="../Assets/bmw/M5 SEDAN.png" alt="M5 Sedan 2025" class="w-40 h-auto mb-4">
-                <p class="text-2xl font-bold text-gray-800">M5 Sedan 2025</p>
-                <button class="btn-blue mt-4" onclick="location.href='M5_Sedan_2025'">VIEW 360</button>
+                <div class="flex justify-center items-center h-40 w-full mb-4">
+                    <img src="../Assets/bmw/M5 SEDAN.png" alt="M5 Sedan 2025" class="max-h-full object-contain">
+                </div>
+                <p class="text-2xl font-bold text-gray-800 mb-4">M5 Sedan 2025</p>
+                <button class="btn-blue px-4 py-2" onclick="location.href='M5_Sedan_2025'">VIEW 360</button>
             </div>
+
+            <!-- M8 Coupe -->
             <div class="brand-card" data-name="M8 Coupe 2020">
-                <img src="../Assets/bmw/M8 COUPE.avif" alt="M8 Coupe 2020" class="w-40 h-auto mb-4">
-                <p class="text-2xl font-bold text-gray-800">M8 Coupe 2020</p>
-                <button class="btn-blue mt-4" onclick="location.href='M8_Coupe_2020'">VIEW 360</button>
+                <div class="flex justify-center items-center h-40 w-full mb-4">
+                    <img src="../Assets/bmw/M8 COUPE.avif" alt="M8 Coupe 2020" class="max-h-full object-contain">
+                </div>
+                <p class="text-2xl font-bold text-gray-800 mb-4">M8 Coupe 2020</p>
+                <button class="btn-blue px-4 py-2" onclick="location.href='M8_Coupe_2020'">VIEW 360</button>
             </div>
         </div>
-    </main>
 
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-gray-300 py-8 px-4 md:px-8 mt-12">
-        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
-            <div>
-                <h2 class="text-2xl font-bold text-white mb-2">RoadStar</h2>
-                <p class="text-sm tracking-widest uppercase">dealership</p>
-            </div>
-            <div>
-                <h3 class="font-bold text-white mb-2">About Us</h3>
-                <ul class="space-y-1">
-                    <li><a href="#" class="hover:text-red-500 transition">Contact</a></li>
-                    <li><a href="#" class="hover:text-red-500 transition">Privacy Policy</a></li>
-                    <li><a href="#" class="hover:text-red-500 transition">Terms & Conditions</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3 class="font-bold text-white mb-2">Our Social Media Platforms:</h3>
-                <ul class="space-y-1">
-                    <li><a href="#" class="hover:text-red-500 transition">Instagram: @roadstardealership</a></li>
-                    <li><a href="#" class="hover:text-red-500 transition">Youtube: RoadStarDealership</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
 
-    <!-- Filter Script -->
-    <script>
-        const filterSelect = document.getElementById('carFilter');
-        const cars = document.querySelectorAll('#carsGrid .brand-card');
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-gray-300 py-8 px-4 md:px-8 mt-12">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+                <div>
+                    <h2 class="text-2xl font-bold text-white mb-2">RoadStar</h2>
+                    <p class="text-sm tracking-widest uppercase">dealership</p>
+                </div>
+                <div>
+                    <h3 class="font-bold text-white mb-2">About Us</h3>
+                    <ul class="space-y-1">
+                        <li><a href="#" class="hover:text-red-500 transition">Contact</a></li>
+                        <li><a href="#" class="hover:text-red-500 transition">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-red-500 transition">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-white mb-2">Our Social Media Platforms:</h3>
+                    <ul class="space-y-1">
+                        <li><a href="#" class="hover:text-red-500 transition">Instagram: @roadstardealership</a></li>
+                        <li><a href="#" class="hover:text-red-500 transition">Youtube: RoadStarDealership</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
 
-        filterSelect.addEventListener('change', () => {
-            const selected = filterSelect.value;
-            cars.forEach(car => {
-                if (selected === 'all' || car.dataset.name === selected) {
-                    car.style.display = 'flex';
-                } else {
-                    car.style.display = 'none';
-                }
+        <!-- Filter Script -->
+        <script>
+            const filterSelect = document.getElementById('carFilter');
+            const cars = document.querySelectorAll('#carsGrid .brand-card');
+
+            filterSelect.addEventListener('change', () => {
+                const selected = filterSelect.value;
+                cars.forEach(car => {
+                    if (selected === 'all' || car.dataset.name === selected) {
+                        car.style.display = 'flex';
+                    } else {
+                        car.style.display = 'none';
+                    }
+                });
             });
-        });
-    </script>
+        </script>
 </body>
+
 </html>

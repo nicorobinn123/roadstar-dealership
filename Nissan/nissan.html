@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +12,14 @@
             font-family: 'Roboto', sans-serif;
             background-color: #f3f4f6;
         }
+
         .text-gradient-red {
             background-image: linear-gradient(45deg, #FF6347, #FF0000);
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+
         .brand-card {
             background-color: #fff;
             border-radius: 1rem;
@@ -29,9 +32,11 @@
             text-align: center;
             padding: 1.5rem;
         }
+
         .brand-card:hover {
             transform: translateY(-5px);
         }
+
         .btn-blue {
             background-color: #3B82F6;
             color: white;
@@ -41,15 +46,18 @@
             border-radius: 9999px;
             transition: transform 0.2s;
         }
+
         .btn-blue:hover {
             transform: translateY(-2px);
         }
+
         .filter-select {
             padding: 0.5rem 1rem;
             border-radius: 0.5rem;
             border: 1px solid #d1d5db;
             background-color: #fff;
         }
+
         .back-btn {
             background-color: #6B7280;
             color: white;
@@ -58,11 +66,13 @@
             font-weight: bold;
             transition: background-color 0.2s;
         }
+
         .back-btn:hover {
             background-color: #4B5563;
         }
     </style>
 </head>
+
 <body>
     <!-- Header -->
     <header class="bg-white shadow-lg p-4 flex items-center justify-between sticky top-0 z-50">
@@ -101,74 +111,111 @@
 
         <!-- Cars Grid -->
         <div id="carsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="brand-card" data-name="370Z Coupe Heritage Edition 2018">
-                <img src="../Assets/nissan/370z.png" alt="370Z Coupe Heritage Edition 2018" class="w-40 h-auto mb-4">
-                <p class="text-2xl font-bold text-gray-800">370Z Coupe Heritage Edition 2018</p>
-                <button class="btn-blue mt-4" onclick="location.href='370Z_Coupe_heritage_Edition_2018'">VIEW 360</button>
+            <!-- 370Z -->
+            <div class="brand-card flex flex-col justify-between items-center text-center p-6 bg-white rounded-lg shadow min-h-[350px]"
+                data-name="370Z Coupe Heritage Edition 2018">
+                <div class="flex justify-center items-center h-40 mb-4">
+                    <img src="../Assets/nissan/370z.png" alt="370Z Coupe Heritage Edition 2018"
+                        class="max-h-full object-contain">
+                </div>
+                <div>
+                    <p class="text-2xl font-bold text-gray-800 mb-4">370Z Coupe Heritage Edition 2018</p>
+                    <button class="btn-blue px-4 py-2" onclick="location.href='370Z_Coupe_heritage_Edition_2018'">VIEW
+                        360</button>
+                </div>
             </div>
-            <div class="brand-card" data-name="Altima 2019">
-                <img src="../Assets/nissan/altima.jpg" alt="Altima 2019" class="w-40 h-auto mb-4">
-                <p class="text-2xl font-bold text-gray-800">Altima 2019</p>
-                <button class="btn-blue mt-4" onclick="location.href='Altima_2019'">VIEW 360</button>
+
+            <!-- Altima -->
+            <div class="brand-card flex flex-col justify-between items-center text-center p-6 bg-white rounded-lg shadow min-h-[350px]"
+                data-name="Altima 2019">
+                <div class="flex justify-center items-center h-40 mb-4">
+                    <img src="../Assets/nissan/altima.jpg" alt="Altima 2019" class="max-h-full object-contain">
+                </div>
+                <div>
+                    <p class="text-2xl font-bold text-gray-800 mb-4">Altima 2019</p>
+                    <button class="btn-blue px-4 py-2" onclick="location.href='Altima_2019'">VIEW 360</button>
+                </div>
             </div>
-            <div class="brand-card" data-name="GT-R Nismo 2017">
-                <img src="../Assets/nissan/gtr nismo.png" alt="GT-R Nismo 2017" class="w-40 h-auto mb-4">
-                <p class="text-2xl font-bold text-gray-800">GT-R Nismo 2017</p>
-                <button class="btn-blue mt-4" onclick="location.href='GT-R Nismo 2017'">VIEW 360</button>
+
+            <!-- GT-R Nismo -->
+            <div class="brand-card flex flex-col justify-between items-center text-center p-6 bg-white rounded-lg shadow min-h-[350px]"
+                data-name="GT-R Nismo 2017">
+                <div class="flex justify-center items-center h-40 mb-4">
+                    <img src="../Assets/nissan/gtr nismo.png" alt="GT-R Nismo 2017" class="max-h-full object-contain">
+                </div>
+                <div>
+                    <p class="text-2xl font-bold text-gray-800 mb-4">GT-R Nismo 2017</p>
+                    <button class="btn-blue px-4 py-2" onclick="location.href='GT-R Nismo 2017'">VIEW 360</button>
+                </div>
             </div>
-            <div class="brand-card" data-name="Sentra Sylphy 2020">
-                <img src="../Assets/nissan/sentra.png" alt="Sentra Sylphy 2020" class="w-40 h-auto mb-4">
-                <p class="text-2xl font-bold text-gray-800">Sentra Sylphy 2020</p>
-                <button class="btn-blue mt-4" onclick="location.href='Sentra_Sylphy_2020'">VIEW 360</button>
+
+            <!-- Sentra -->
+            <div class="brand-card flex flex-col justify-between items-center text-center p-6 bg-white rounded-lg shadow min-h-[350px]"
+                data-name="Sentra Sylphy 2020">
+                <div class="flex justify-center items-center h-40 mb-4">
+                    <img src="../Assets/nissan/sentra.png" alt="Sentra Sylphy 2020" class="max-h-full object-contain">
+                </div>
+                <div>
+                    <p class="text-2xl font-bold text-gray-800 mb-4">Sentra Sylphy 2020</p>
+                    <button class="btn-blue px-4 py-2" onclick="location.href='Sentra_Sylphy_2020'">VIEW 360</button>
+                </div>
             </div>
-            <div class="brand-card" data-name="Z Nismo 2024">
-                <img src="../Assets/nissan/znismo.png" alt="Z Nismo 2024" class="w-40 h-auto mb-4">
-                <p class="text-2xl font-bold text-gray-800">Z Nismo 2024</p>
-                <button class="btn-blue mt-4" onclick="location.href='Z_Nismo_2024'">VIEW 360</button>
+
+            <!-- Z Nismo -->
+            <div class="brand-card flex flex-col justify-between items-center text-center p-6 bg-white rounded-lg shadow min-h-[350px]"
+                data-name="Z Nismo 2024">
+                <div class="flex justify-center items-center h-40 mb-4">
+                    <img src="../Assets/nissan/znismo.png" alt="Z Nismo 2024" class="max-h-full object-contain">
+                </div>
+                <div>
+                    <p class="text-2xl font-bold text-gray-800 mb-4">Z Nismo 2024</p>
+                    <button class="btn-blue px-4 py-2" onclick="location.href='Z_Nismo_2024'">VIEW 360</button>
+                </div>
             </div>
         </div>
-    </main>
 
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-gray-300 py-8 px-4 md:px-8 mt-12">
-        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
-            <div>
-                <h2 class="text-2xl font-bold text-white mb-2">RoadStar</h2>
-                <p class="text-sm tracking-widest uppercase">dealership</p>
-            </div>
-            <div>
-                <h3 class="font-bold text-white mb-2">About Us</h3>
-                <ul class="space-y-1">
-                    <li><a href="#" class="hover:text-red-500 transition">Contact</a></li>
-                    <li><a href="#" class="hover:text-red-500 transition">Privacy Policy</a></li>
-                    <li><a href="#" class="hover:text-red-500 transition">Terms & Conditions</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3 class="font-bold text-white mb-2">Our Social Media Platforms:</h3>
-                <ul class="space-y-1">
-                    <li><a href="#" class="hover:text-red-500 transition">Instagram: @roadstardealership</a></li>
-                    <li><a href="#" class="hover:text-red-500 transition">Youtube: RoadStarDealership</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
 
-    <!-- Filter Script -->
-    <script>
-        const filterSelect = document.getElementById('carFilter');
-        const cars = document.querySelectorAll('#carsGrid .brand-card');
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-gray-300 py-8 px-4 md:px-8 mt-12">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+                <div>
+                    <h2 class="text-2xl font-bold text-white mb-2">RoadStar</h2>
+                    <p class="text-sm tracking-widest uppercase">dealership</p>
+                </div>
+                <div>
+                    <h3 class="font-bold text-white mb-2">About Us</h3>
+                    <ul class="space-y-1">
+                        <li><a href="#" class="hover:text-red-500 transition">Contact</a></li>
+                        <li><a href="#" class="hover:text-red-500 transition">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-red-500 transition">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-white mb-2">Our Social Media Platforms:</h3>
+                    <ul class="space-y-1">
+                        <li><a href="#" class="hover:text-red-500 transition">Instagram: @roadstardealership</a></li>
+                        <li><a href="#" class="hover:text-red-500 transition">Youtube: RoadStarDealership</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
 
-        filterSelect.addEventListener('change', () => {
-            const selected = filterSelect.value;
-            cars.forEach(car => {
-                if (selected === 'all' || car.dataset.name === selected) {
-                    car.style.display = 'flex';
-                } else {
-                    car.style.display = 'none';
-                }
+        <!-- Filter Script -->
+        <script>
+            const filterSelect = document.getElementById('carFilter');
+            const cars = document.querySelectorAll('#carsGrid .brand-card');
+
+            filterSelect.addEventListener('change', () => {
+                const selected = filterSelect.value;
+                cars.forEach(car => {
+                    if (selected === 'all' || car.dataset.name === selected) {
+                        car.style.display = 'flex';
+                    } else {
+                        car.style.display = 'none';
+                    }
+                });
             });
-        });
-    </script>
+        </script>
 </body>
+
 </html>
